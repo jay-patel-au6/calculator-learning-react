@@ -159,8 +159,12 @@ class App extends Component {
 		arg1 = result
 		arg2 = null
 
+		console.log(result, result[0])
+		if(result < 0) result = "(" + String(result) + ")"
+		else result = String(result)
+		console.log(result)
 
-		this.setState({inputVal: String(result)}, () => {
+		this.setState({inputVal: result}, () => {
 			this.setState({history: [...this.state.history, equation + " = " + result]})
 		})
 
