@@ -1,0 +1,13 @@
+.Input {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    width: calc(100% - 24px);
+    height: 50px;
+}
+
+
+.Input:focus {
+    outline: none;
+}

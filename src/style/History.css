@@ -1,0 +1,6 @@
+.History {
+    max-height: 300px;
+    overflow-x: auto;
+    overflow-y: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
